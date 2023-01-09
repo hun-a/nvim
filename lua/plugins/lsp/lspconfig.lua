@@ -89,3 +89,9 @@ lspconfig["emmet_ls"].setup({
   filetypes = { "html", "typescriptreact", "ts", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
 })
 
+lspconfig["jdtls"].setup({
+  capabilities = capabilities,
+  on_attach = on_attach,
+  filetypes = { "java" }
+})
+

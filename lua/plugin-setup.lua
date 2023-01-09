@@ -58,8 +58,6 @@ return require('packer').startup(function()
   -- configuring lsp servers
   use("neovim/nvim-lspconfig") -- easily configure language servers
   use 'simrat39/rust-tools.nvim'
-  use ({ "mfussenegger/nvim-jdtls", ft = { "java" }})
-  use 'mfussenegger/nvim-dap'
   use("hrsh7th/cmp-nvim-lsp") -- for autocompletion
   use({ "glepnir/lspsaga.nvim", branch = "main" }) -- enhanced lsp uis
   use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
