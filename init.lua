@@ -1,12 +1,14 @@
 -- IMPORTS
--- require('vars')         -- Variables
-require('core.opts')            -- Options: UNCOMMENT THIS LINE
-require('core.keys')            -- Keymaps
-require('core.color')           -- Color scheme
-require('core.plugin-setup')    -- Plugin-setup
+require('core.opts')
+require('core.keys')
+require('core.color')
+require('plugin-setup')
+require('plugins.lsp.lspconfig')
 require('plugins.lsp.mason')
 require('plugins.lsp.rust-tools')
-require('plugins.lsp.cmp')
+require('plugins.cmp')
 require('plugins.treesitter')
 require('plugins.telescope')
 require('plugins.tree')
+require('plugins.lualine')
+require('plugins.gitsign')

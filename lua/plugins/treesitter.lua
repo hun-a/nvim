@@ -19,6 +19,7 @@ treesitter.setup({
     "rust",
     "toml",
     "json",
+    "java",
     "javascript",
     "typescript",
     "tsx",
