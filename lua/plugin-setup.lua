@@ -84,6 +84,9 @@ return require('packer').startup(function()
   -- git integration
   use("lewis6991/gitsigns.nvim") -- show line modifications on left hand side
 
+  -- Debugging for rust
+  use 'puremourning/vimspector'
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
