@@ -14,7 +14,12 @@
   - Font files in [here](./font/)
 
 # Troubleshooting
-
+- Install the `codelldb` by `Mason`
+  ```
+  $ vi
+  --- nvim ---
+  :MasonInstall codelldb
+  ```
 
 # References
 - [dev-environment-files](https://github.com/josean-dev/dev-environment-files)
