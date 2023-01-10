@@ -24,9 +24,8 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 vim.cmd([[
 nmap <F9> <cmd>call vimspector#Launch()<cr>
 nmap <F5> <cmd>call vimspector#StepOver()<cr>
-nmap <F5> <cmd>call vimspector#StepOver()<cr>
-nmap <F6> <cmd>call vimspector#StepOut()<cr>")
-nmap <F7> <cmd>call vimspector#StepInto()<cr>")
+nmap <F6> <cmd>call vimspector#StepInto()<cr>")
+nmap <F7> <cmd>call vimspector#StepOut()<cr>")
 nmap <F8> <cmd>call vimspector#Reset()<cr>
 ]])
 keymap.set('n', "Db", ":call vimspector#ToggleBreakpoint()<cr>")
